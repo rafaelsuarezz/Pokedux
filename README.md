@@ -1,3 +1,41 @@
+# Pokedux
+
+Pokedux es una aplicación web que te permite explorar y buscar Pokémon de la primera generación. Puedes marcar tus Pokémones favoritos y utilizar una barra de búsqueda para encontrar rápidamente a tus amigos de bolsillo preferidos.
+
+## Funcionalidades Principales
+
+- **Exploración de Pokémon**: Explora la lista de Pokémon de la primera generación.
+- **Búsqueda**: Utiliza la barra de búsqueda para encontrar Pokémon por nombre.
+- **Favoritos**: Marca tus Pokémon favoritos y mantenlos en una lista especial.
+
+## Tecnologías Utilizadas
+
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario interactivas.
+- **Redux**: Biblioteca para gestionar el estado global de la aplicación.
+- **Redux Toolkit**: Conjunto de utilidades recomendadas para Redux, que incluye el uso de `createSlice` y `createAsyncThunk`.
+- **Redux Thunk**: Middleware para manejar acciones asíncronas en Redux.
+
+## Aprendizajes
+
+En el desarrollo de este proyecto, se exploraron los siguientes conceptos:
+
+- **Redux y su Ciclo de Vida**: Entendimos el concepto de un estado global y cómo Redux facilita la gestión del estado en aplicaciones complejas.
+- **Middlewares**: Aprendimos sobre los middlewares y cómo se pueden utilizar para realizar tareas adicionales entre la emisión de una acción y su procesamiento por un reducer.
+- **Redux Thunk**: Implementamos Redux Thunk para manejar acciones asíncronas, como la obtención de datos de Pokémon desde una API.
+- **Redux Toolkit**: Utilizamos Redux Toolkit para simplificar la configuración de Redux y reducir la cantidad de código boilerplate.
+
+## Instrucciones de Ejecución
+
+1. Clona el repositorio: `git clone https://github.com/tu-usuario/pokedux.git`
+2. Instala las dependencias: `npm install`
+3. Inicia la aplicación: `npm start`
+4. Abre tu navegador y visita [http://localhost:3000](http://localhost:3000)
+
+¡Disfruta explorando el mundo Pokémon con Pokedux!
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
